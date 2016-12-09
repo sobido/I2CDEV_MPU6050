@@ -1,4 +1,4 @@
-// I2C device class (I2Cdev) demonstration Arduino sketch for MPU6050 class, 3D math helper
+// I2C device class (I2Cdev) demonstration Arduino sketch for MPU9150 class, 3D math helper
 // 6/5/2012 by Jeff Rowberg <jeff@rowberg.net>
 // Updates should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
 //
@@ -31,10 +31,6 @@ THE SOFTWARE.
 
 #ifndef _HELPER_3DMATH_H_
 #define _HELPER_3DMATH_H_
-
-#if defined (SPARK)
-	#include <math.h>
-#endif
 
 class Quaternion {
     public:
