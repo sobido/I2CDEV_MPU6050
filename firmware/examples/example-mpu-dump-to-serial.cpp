@@ -38,7 +38,7 @@ void setup() {
     // Cerify the connection:
     Serial.println("Testing device connections...");
     Serial.println(accelgyro.testConnection() ? "MPU6050 connection successful" : "MPU6050 connection failed");
-    
+    delay(5000);
 }
 
 void loop() {
