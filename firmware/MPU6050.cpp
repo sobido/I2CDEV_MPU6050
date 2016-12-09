@@ -40,7 +40,7 @@ THE SOFTWARE.
  * @see MPU6050_DEFAULT_ADDRESS
  */
 MPU6050::MPU6050() {
-    devAddr = MPU6050_DEFAULT_ADDRESS;
+    devAddr = MPU6050_ADDRESS_AD0_HIGH;
 }
 
 /** Specific address constructor.
