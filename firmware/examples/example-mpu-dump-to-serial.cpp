@@ -8,7 +8,7 @@
 int ledPin = D7;
 
 // MPU variables:
-MPU6050 accelgyro;
+MPU6050 accelgyro(0x69);// test because of connection failed with :MPU6050 accelgyro;
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
 
